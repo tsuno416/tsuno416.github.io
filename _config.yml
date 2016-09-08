@@ -7,15 +7,14 @@
 
 # Site settings
 title: Yurufuwa-Lab.v2
-email: no-mail-so-far@domain.com
+email: #no-mail-so-far@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  もてかわを目指したいアラサーエンジニアのブログ。京都->三鷹の森->インド->横浜。電波系５年生。MOT１年生。
+  技術小ネタ、MOT、本、映画、などなど思いついたら書きます。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: tsuno788
-github_username:  jekyll
+github_username:  tsuno416
 
 # Build settings
 markdown: kramdown

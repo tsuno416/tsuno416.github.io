@@ -1,9 +1,43 @@
 ---
 layout: post
-title:  "これはたいとるです"
-date:   2016-09-08 08:39:41 +0900
-categories: jekyll update
+title:  "はじめました。"
+date:   2016-09-08 21:32:00 +0900
+categories: blog
 ---
 
-これはブログのテストです。
-this is first test of blogging
+日々の備忘録、世に情報が少なそうなこと、調べてみてやくにたったこと、立ちようもないことをとりあえず書いてみることにしました。
+
+#このブログの作り方
+
+[Jekyll docs][jekyll-docs] と[githubのチュートリアル][github-pages] にしたがって
+ほぼほぼ以下のコマンドのみで作成。
+
+{% highlight sh %}
+jekyll new .
+{% endhighlight %}
+
+
+[jekyll-docs]: http://jekyllrb.com/docs/home
+[github-pages]: https://pages.github.com
+<script id="dsq-count-scr" src="//https-tsuno416-github-io.disqus.com/count.js" async></script>
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+ *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+ *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+/*
+var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//https-tsuno416-github-io.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
