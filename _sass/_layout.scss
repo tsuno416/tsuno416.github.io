@@ -5,7 +5,8 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-
+    // added sep-09
+    background: linear-gradient(to right, #8cff00, #13ae13, #00c2c2, #0000da, #ce006c);
     // Positioning context for the mobile navigation icon
     position: relative;
 }
